@@ -1,0 +1,22 @@
+<html>
+<head>
+</head>
+<body>
+<p id="demo"></p>
+</body>
+<script>
+ var skiResorts = [
+        'chamonix', 
+        'åre',
+        'st anton',
+        'bansko',
+        'courmayeur',
+        'sierra nevada',
+        'kaprun',
+        'garmisch partenkirchen',
+        'romme'
+    ];    
+    var rand = skiResorts[Math.floor(Math.random() * skiResorts.length)];
+  document.getElementById('demo').innerHTML = rand.toString();
+  </script>
+</html>

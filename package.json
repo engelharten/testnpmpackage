@@ -1,0 +1,14 @@
+{
+  "name": "@engelharten/lightnintalk",
+  "version": "0.1.0",
+  "description": "random skiresort",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "author": "engelharten <marcusengelhart@gmail.com> (http://www.nej.se)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.9.3"
+  }
+}
